@@ -463,7 +463,7 @@ class BaseHtml
     /**
      * Generates a button tag.
      * @param string $content the content enclosed within the button tag. It will NOT be HTML-encoded.
-     * Therefore you can pass in HTML code such as an image tag. If this is is coming from end users,
+     * Therefore you can pass in HTML code such as an image tag. If this is coming from end users,
      * you should consider [[encode()]] it to prevent XSS attacks.
      * @param array $options the tag options in terms of name-value pairs. These will be rendered as
      * the attributes of the resulting tag. The values will be HTML-encoded using [[encode()]].
